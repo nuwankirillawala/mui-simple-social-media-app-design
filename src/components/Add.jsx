@@ -37,7 +37,12 @@ function Add() {
                 aria-describedby="modal-modal-description"
             >
                 <Box
-                    width={400} height={280} bgcolor={'white'} p={3} borderRadius={5}>
+                    width={400} 
+                    height={280} 
+                    bgcolor={'background.default'} 
+                    color={"text.primary"}
+                    p={3} borderRadius={5}
+                    >
                     <Typography variant="h6" color="gray" textAlign="center">
                         Create a post
                     </Typography>
