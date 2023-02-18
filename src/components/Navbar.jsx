@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <AppBar position='sticky'>
       <StyledToolbar>
-        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block" } }}>navbar</Typography>
+        <Typography variant='h6' sx={{ display: { xs: "none", sm: "block" } }}>Promi MUI</Typography>
         <Navigation sx={{ display: { xs: "block", sm: "none" } }} />
 
         <Search>
